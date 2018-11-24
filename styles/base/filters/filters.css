@@ -1,0 +1,14 @@
+.filters-item {
+    font-size: 14px;
+    color: #888888;
+    border: none;
+    outline: none;
+    padding: 5px 8px;
+    margin: 0 8px;
+    background: 0;
+    }
+
+.filters-item.__selected{
+    border: 1px solid #ebdfdf;
+    border-radius: 2px;
+    }

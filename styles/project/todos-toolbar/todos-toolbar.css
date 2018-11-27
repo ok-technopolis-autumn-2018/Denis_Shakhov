@@ -6,20 +6,35 @@
     }
 
 .todos-toolbar_unready-counter, .todos-toolbar_filters, .todos-toolbar_clear-completed {
-    margin: auto;
     position: absolute;
     }
 
 .todos-toolbar_unready-counter {
-    left: 1px;
+    margin-left: 12px;
+    margin-top: 11px;
+    height: 30px;
+    font-size: 14px;
+    font-family: HelveticaNeueLight, Arial, sans-serif;
+    color: #888888;
     }
 
 .todos-toolbar_filters {
-    width: 230px;
+    width: 100%;
     height: 30px;
+    margin: auto;
+    text-align: center;
     top: 0; left: 0; bottom: 0; right: 0;
     }
 
 .todos-toolbar_clear-completed {
-    right: 1px;
+    right: 12px;
+    height: 100%;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+    font-family: HelveticaNeueLight, Arial, sans-serif;
+    color: #888888;
     }

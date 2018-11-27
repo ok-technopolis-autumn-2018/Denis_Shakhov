@@ -1,11 +1,16 @@
 .filters-item {
     font-size: 14px;
+    font-family: HelveticaNeueLight, Arial, sans-serif;
     color: #888888;
     border: none;
     outline: none;
     padding: 5px 8px;
     margin: 0 8px;
     background: 0;
+    }
+
+.filters-item:hover {
+    cursor: pointer;
     }
 
 .filters-item.__selected{
